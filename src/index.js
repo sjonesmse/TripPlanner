@@ -13,9 +13,7 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10' // mapbox has lots of different map styles available.
 });
 
-const para = document.createElement('div');
-para.style.width = '32px';
-para.style.height = '39px';
-para.style.backgroundColor = 'red';
 
-new mapboxgl.Marker(para).setLngLat([-87.6354, 41.8885]).addTo(map);
+const markerDrop = marker("Restaurant", [-87.6354, 41.8885]);
+markerDrop.addTo(map);
+
