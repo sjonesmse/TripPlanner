@@ -12,3 +12,30 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+#mapcontainer {
+  height: 100%;
+  width: 80%
+}
+
+#formcontainer {
+  height: 100%;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.dropdown {
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.dropdowncontainer {
+  height: 50%;
+  width: 20%;
+  float: left;
+}
+
