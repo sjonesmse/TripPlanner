@@ -13,7 +13,5 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10' // mapbox has lots of different map styles available.
 });
 
-
-const markerDrop = marker("Restaurant", [-87.6354, 41.8885]);
+const markerDrop = marker('Restaurant', [-87.6354, 41.8885]);
 markerDrop.addTo(map);
-
